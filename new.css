@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+.inicio{
+    width: 100%;
+    padding: 5%;
+    background-image: url("img202n.jpg");
+    background-position-y: -19px;
+}
+
+.inicio h1{
+    border-radius: 10px;
+    text-align: center;
+    color: brown;
+    background-color: rgba(20,200, 20, 0.6);
+}
+
+.header_border_gd{
+    border-radius: 10px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.meio{
+    width: 100%;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.submeio{
+    width: 15%;
+    height: 600px;
+    background-color: cadetblue;
+    float: left;
+}
+
+.submeio submeio ol li{
+    list-style: none;
+    margin-top: 4px;
+}
+
+.submeio submeio ol li a{
+    margin-left: -30px;
+    text-decoration: none;
+    color: brown;
+    font-weight: 900;
+    transition: 1s ease;
+}
+
+.submeio submeio ol li ol a{
+    margin-left: -60px;
+    text-decoration: none;
+    color: brown;
+    font-weight: 900;
+    transition: 1s ease;
+}
+
+.submeio submeio ol li ol li ol a{
+    margin-left: -90px;
+    text-decoration: none;
+    color: brown;
+    font-weight: 900;
+    transition: 1s ease;
+}
+
+.submeio submeio ol li ol li ol li ol a{
+    margin-left: -120px;
+    text-decoration: none;
+    color: brown;
+    font-weight: 900;
+    transition: 1s ease;
+}
+
+.ol_submenu1{
+  display: none;
+}
+
+.ol_menu:hover .ol_submenu1{
+  display: block;
+}
+
+.ol_submenu2{
+  display: none;
+}
+
+.ol_submenu1:hover .ol_submenu2{
+    display: block;
+}
+
+/*
+
+.ol_submenu3{
+    display: none;
+}
+
+.ol_submenu2:hover .ol_submenu3{
+    display: block;
+}
+*/
+
+/*----------------------------------------------------------------------------*/
+
+.i_frame{
+    width: 85%;
+    height: 600px;
+    background-color: darkcyan;
+    float: left;
+}
+
+.i_frame iframe{
+    width: 100%;
+    height: 570px;
+    border-style: none;
+    padding: 4px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.direitos{
+    text-align: center;
+}

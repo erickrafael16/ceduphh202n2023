@@ -1,0 +1,38 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    margin: 2px;
+    float: left;
+}
+
+.alunos{
+    border-radius: 50%;
+    background-image: url("img202n.jpg");
+    background-position-y: 19px;
+    transition: 3s;
+    img {clip-path: polygon(100% 0%, 100% 20%, 100% 0, 100% 53%, 100% 100%, 100% 81%, 0 100%, 10% 50%, 0 0, 34% 28%)}
+}
+
+.alunos:hover{
+    transform: rotate(1080deg);
+}
+
+.surpresa{
+    background-image: url("dia1.png");
+    margin-left: 50px;
+    background-size: 100%;
+}
+
+@keyframes animation_3d {
+  0% { transform: translate3d(0, 0, 0); }
+  25% { transform: translate3d(200px, 0, 0); }
+  50% { transform: translate3d(200px, 200px, 0); }
+  75% { transform: translate3d(0, 200px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.surpresa:hover{
+    transition: 3s;
+    animation: animation_3d 2s ease infinite;
+}
